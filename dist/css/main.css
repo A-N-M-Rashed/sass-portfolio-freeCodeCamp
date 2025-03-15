@@ -150,7 +150,10 @@
   flex-direction: column;
 }
 .projects footer {
-  transform: translate(-3rem, -5rem) rotate(90deg);
+  position: fixed;
+  right: 0;
+  transform: translate(-3rem, 0rem) rotate(90deg);
+  transform-origin: right bottom;
 }
 
 .contact {
